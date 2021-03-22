@@ -1,4 +1,4 @@
-package com.chryl.common2.filter2;
+package com.chryl.common2.util;
 
 /**
  * 字符串格式化

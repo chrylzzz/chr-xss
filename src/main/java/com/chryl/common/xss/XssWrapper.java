@@ -46,6 +46,25 @@ public class XssWrapper extends HttpServletRequestWrapper {
         }
         return encodedValues;
     }
+    /*
+    @Override
+    public String[] getParameterValues(String name)
+    {
+        String[] values = super.getParameterValues(name);
+        if (values != null)
+        {
+            int length = values.length;
+            String[] escapseValues = new String[length];
+            for (int i = 0; i < length; i++)
+            {
+                // 防xss攻击和过滤前后空格
+                escapseValues[i] = EscapeUtil.clean(values[i]).trim();
+            }
+            return escapseValues;
+        }
+        return super.getParameterValues(name);
+    }
+    */
 
     /**
      * 对参数中特殊字符进行过滤

@@ -1,4 +1,4 @@
-package com.chryl.common2.filter2;
+package com.chryl.common2.util;
 
 /**
  * 转义和反转义工具类

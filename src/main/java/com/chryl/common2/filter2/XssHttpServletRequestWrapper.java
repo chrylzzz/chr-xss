@@ -1,6 +1,8 @@
 package com.chryl.common2.filter2;
 
 
+import com.chryl.common2.util.EscapeUtil;
+
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletRequestWrapper;
 

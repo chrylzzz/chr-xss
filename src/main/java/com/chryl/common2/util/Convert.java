@@ -1,4 +1,4 @@
-package com.chryl.common2.filter2;
+package com.chryl.common2.util;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;

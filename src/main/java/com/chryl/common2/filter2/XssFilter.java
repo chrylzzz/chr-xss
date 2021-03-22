@@ -1,6 +1,8 @@
 package com.chryl.common2.filter2;
 
 
+import com.chryl.common2.util.StringUtils;
+
 import javax.servlet.*;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
